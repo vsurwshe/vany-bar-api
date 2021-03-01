@@ -12,8 +12,8 @@ class BarBottels extends Model{
         'bar_bottel_unit_price', 
         'bar_bottel_per_case_count',
         'bar_bottel_packing',
-        'bar_bottel_packing',
-        'bar_bottel_total_qty'
+        'bar_bottel_total_qty',
+        'user_id'
     ];
 
     public function user(){

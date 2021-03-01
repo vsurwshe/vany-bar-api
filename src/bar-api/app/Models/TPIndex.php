@@ -22,7 +22,8 @@ class TPIndex extends Model{
         'driver_name', 
         'vahical_number',
         'license_number',
-        'driver_number'
+        'driver_number',
+        'user_id'
     ];
 
     public function user(){

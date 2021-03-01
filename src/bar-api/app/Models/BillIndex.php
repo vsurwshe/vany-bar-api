@@ -22,7 +22,8 @@ class BillIndex extends Model{
         'gross_amount', 
         'total_cis', 
         'total_bottels',
-        'net_amount'
+        'net_amount',
+        'user_id'
     ];
 
     public function user(){
